@@ -1,0 +1,20 @@
+//Perimeter and Area of Rectangle
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    double length,width;
+    scanf("%lf %lf",&length,&width);
+    double Area,Perimeter;
+    Area=length*width;
+    printf("Area : %.2lf\n",Area);
+    Perimeter=2*(length+width);
+    printf("Perimeter : %.2lf\n",Perimeter);
+    
+    return 0;
+}
