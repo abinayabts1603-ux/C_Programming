@@ -1,0 +1,25 @@
+// Average mileage
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    
+    float totalexpense, priceperliter, totalkm;
+    scanf("%f ", &totalexpense);
+    scanf("%f ", &priceperliter);
+    scanf("%f ", &totalkm);
+    
+    float fuelconsumed = totalexpense / priceperliter;
+    float mileage = totalkm / fuelconsumed;
+    float costperkm = totalexpense / totalkm;
+    
+    printf("Mileage : %07.2f\n", mileage);
+    printf("Cost/KM : %07.2f\n", costperkm);
+    
+
+}
