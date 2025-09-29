@@ -1,0 +1,18 @@
+//Area and Perimeter of Circle
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    double radius,Area,Perimeter;
+    scanf("%lf",&radius);
+    Area=(22.0/7.0)*radius*radius;
+    printf("Area : %.2lf\n",Area);
+    Perimeter=2*(22.0/7.0)*radius;
+    printf("Perimeter : %.2lf\n",Perimeter);
+    return 0;
+}
