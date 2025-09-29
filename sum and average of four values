@@ -1,0 +1,18 @@
+// sum and average of four values
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    double a,b,c,d;
+    scanf("%lf %lf %lf %lf",&a,&b,&c,&d);
+    double sum=a+b+c+d;
+    printf("Sum = %.1lf\n",sum);
+    double Average=sum/4;
+    printf("Average = %.1lf\n",Average);
+    return 0;
+}
