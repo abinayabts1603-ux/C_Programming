@@ -1,0 +1,25 @@
+//Grade Calculator 2
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    int marks;
+    scanf("%d",&marks);
+    if(marks>=76 && marks<=100)
+        printf("A");
+    else if(marks>=51 && marks<=75)
+        printf("B");
+    else if(marks>=26 && marks<=50)
+        printf("C");
+    else if(marks>0 && marks<=25)
+        printf("D");
+    else
+        printf("score should be in between 1 to 100 ");
+   
+    return 0;
+}
