@@ -1,0 +1,14 @@
+//Simple interest
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    double P,R,N;
+    scanf("%lf %lf %lf\n" ,&P,&R,&N);
+    double Simple_Intrest=P*R*N/100;
+    printf("%.2lf\n",Simple_Intrest);
+    return 0;
+}
