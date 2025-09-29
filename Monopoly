@@ -1,0 +1,18 @@
+//Monopoly
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    double P,Q,R,S;
+    scanf("%lf %lf %lf %lf", &P ,&Q ,&R ,&S);
+    if(P>(Q+R+S)||Q>(P+R+S)||R>(P+Q+S)||S>(P+Q+R))
+        printf("YES");
+    else
+        printf("NO");
+    return 0;
+}
