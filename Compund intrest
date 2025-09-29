@@ -1,0 +1,16 @@
+//Compund intrest
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
+    double p,n,r,intrest;
+    scanf("%lf %lf %lf",&p,&r,&n);
+    intrest = p*pow(1+r/100,n)-p;
+    printf("%.2lf",intrest);
+    return 0;
+}
