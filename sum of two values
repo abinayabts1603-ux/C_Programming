@@ -1,0 +1,18 @@
+//sum of two values
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    double x, y,sum;
+    scanf("%lf %lf", &x, &y); 
+    sum = x + y;
+    printf("%.1lf + %.1lf = %.1lf", x, y, sum);
+    
+
+    return 0;
+}
